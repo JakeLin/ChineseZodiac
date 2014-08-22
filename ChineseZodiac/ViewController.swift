@@ -32,12 +32,8 @@ class ViewController: UIViewController {
         yearOfBirth.resignFirstResponder()
         if let year = yearOfBirth.text.toInt() {
             var imageNumber = (year - offset) % 12
-            
             image.image = UIImage(named: String(imageNumber))
-
         }
-}
-   
-
+    }
 }
 
