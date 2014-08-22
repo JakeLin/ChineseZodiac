@@ -4,4 +4,6 @@ ChineseZodiac
 ChineseZodiac is a small iOS app developed in Swift language. This app is used to teach the learners to build iOS app in a video tutorial.
 
 ## Screenshots
+![ChineseZodiac Horse](https://raw.githubusercontent.com/JakeLin/ChineseZodiac/master/Screenshots/ChineseZodiac-horse.png)
 
+![ChineseZodiac Snake](https://raw.githubusercontent.com/JakeLin/ChineseZodiac/master/Screenshots/ChineseZodiac-snake.png)
