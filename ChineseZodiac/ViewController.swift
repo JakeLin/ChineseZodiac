@@ -31,8 +31,9 @@ class ViewController: UIViewController {
     @IBAction func okTapped(sender: AnyObject) {
         yearOfBirth.resignFirstResponder()
         if let year = Int(yearOfBirth.text!) {
-            var imageNumber = (year - offset) % 12
-            image.image = UIImage(named: String(imageNumber))
+            let number = year < 4 ? year + 8 : (year - 4) % 12
+            let imageName = String(number)
+            image.image = UIImage(named: imageName)
         }
     }
 }
